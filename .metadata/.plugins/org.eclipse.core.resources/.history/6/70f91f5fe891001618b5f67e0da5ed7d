@@ -1,0 +1,36 @@
+package cn.edu.bjfu.en.im;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Studentsys {
+	private List<Student> arrStudent = new ArrayList<Student>();
+	
+	public Studentsys() {
+		arrStudent.add(new Student(10000, "zhang", 19));
+		arrStudent.add(new Student(10001, "que", 19));
+		arrStudent.add(new Student(10002, "zhou", 19));
+	}
+	
+//	public void initStudent() {
+//		arrStudent.add(new Student(10000, "zhang", 19));
+//		arrStudent.add(new Student(10001, "que", 19));
+//		arrStudent.add(new Student(10002, "zhou", 19));
+//	}
+	public void search(int i){
+		Student c = arrStudent.get(i);
+		System.out.println(c.getNo()+"-"+c.getName()+"-"+c.getAge());
+	}
+	public void remove(int i){
+		arrStudent.remove(i);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Studentsys c = new Studentsys();
+		c.search(1);
+		c.remove(0);
+		c.search(1);
+	}
+}
+
+

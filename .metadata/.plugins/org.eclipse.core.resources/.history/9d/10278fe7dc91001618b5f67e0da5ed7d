@@ -1,0 +1,15 @@
+package cn.edu.bjfu.en.im;
+
+public class Studentsys {
+	
+	public class Student{
+		int no; String name; int age;
+		Student(int thisNo, String thisName, int thisAge){
+			no=thisNo;
+			name=thisName;
+			age=thisAge;
+		}
+	}
+}
+
+

@@ -1,0 +1,10 @@
+package cn.edu.bjfu.en.im;
+
+public class Studentsys {
+	
+	public class Student{
+		
+	}
+}
+
+
