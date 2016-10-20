@@ -1,8 +1,8 @@
 package cn.edu.bjfu.en.im;
 
-public class Student {
+public class StudentOV {
 	int no; String name; int age;
-	Student(int thisNo, String thisName, int thisAge){
+	StudentOV(int thisNo, String thisName, int thisAge){
 		no=thisNo;
 		name=thisName;
 		age=thisAge;

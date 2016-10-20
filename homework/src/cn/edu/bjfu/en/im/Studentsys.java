@@ -9,16 +9,16 @@ public class Studentsys {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		List<Student> arrStudent = new ArrayList<Student>();
+		List<StudentOV> arrStudent = new ArrayList<StudentOV>();
 		
-			arrStudent.add(new Student(10000, "zhang", 19));
-			arrStudent.add(new Student(10001, "que", 19));
-			arrStudent.add(new Student(10002, "zhou", 19));
+			arrStudent.add(new StudentOV(10000, "zhang", 19));
+			arrStudent.add(new StudentOV(10001, "que", 19));
+			arrStudent.add(new StudentOV(10002, "zhou", 19));
 		
-			Student c = arrStudent.get(1);
+			StudentOV c = arrStudent.get(1);
 			System.out.println(c.getNo()+"-"+c.getName()+"-"+c.getAge());
 			arrStudent.remove(1);
-			Student z = arrStudent.get(1);
+			StudentOV z = arrStudent.get(1);
 			System.out.println(z.getNo()+"-"+z.getName()+"-"+z.getAge());
 	}
 }
