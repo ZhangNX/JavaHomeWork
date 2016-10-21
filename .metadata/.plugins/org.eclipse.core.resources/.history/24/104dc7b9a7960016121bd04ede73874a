@@ -1,0 +1,10 @@
+package cn.edu.bjfu.en.im;
+
+public class DateCompare {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

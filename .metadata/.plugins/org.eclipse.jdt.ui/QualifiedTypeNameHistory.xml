@@ -2,14 +2,17 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextExtPackage.AddressHelper"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="cn.edu.bjfu.en.im.Calculate.Caclulator"/>
 <fullyQualifiedTypeName name="cn.edu.bjfu.en.im.Calculate"/>
 <fullyQualifiedTypeName name="cn.edu.bjfu.en.im.Studentsys.Student"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="cn.edu.bjfu.en.im.Studentsys"/>
 <fullyQualifiedTypeName name="cn.edu.bjfu.en.im.Student"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="cn.edu.bjfu.en.im.BookOV"/>
 </qualifiedTypeNameHistroy>
