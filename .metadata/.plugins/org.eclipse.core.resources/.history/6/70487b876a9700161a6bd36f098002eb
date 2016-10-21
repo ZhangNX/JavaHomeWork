@@ -8,21 +8,12 @@ public class BookVO {
 	BookVO(String thisBookName, int thisBookPrice) {
 		bookName = thisBookName;
 		bookPrice = thisBookPrice;
-
+		
 	}
-
 	BookVO(String thisBookName, int thisBookPrice, int thisNum) {
 		bookName = thisBookName;
 		bookPrice = thisBookPrice;
-		num = thisNum;
-	}
-
-	public int getNum() {
-		return num;
-	}
-
-	public void setNum(int num) {
-		this.num = num;
+		num=thisNum;
 	}
 
 	@Override

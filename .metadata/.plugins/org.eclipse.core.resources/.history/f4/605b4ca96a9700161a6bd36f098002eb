@@ -1,0 +1,13 @@
+package cn.edu.bjfu.en.im.homework_2;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Cart {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<Integer, BookVO> mapBook= new HashMap<K, V>()
+	}
+
+}
