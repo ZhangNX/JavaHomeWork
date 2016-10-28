@@ -1,0 +1,10 @@
+package cn.edu.bjfu.en.im.homework_3;
+
+public class Student_MySQL {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
