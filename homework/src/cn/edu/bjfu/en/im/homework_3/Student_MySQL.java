@@ -9,7 +9,7 @@ import com.mysql.jdbc.PreparedStatement;
 
 public class Student_MySQL {
 
-	static Connection open() {
+	public static Connection open() {
 		Connection conn = null;
 		try {
 			// 1. 加载驱动
@@ -23,7 +23,7 @@ public class Student_MySQL {
 		return conn;
 	}
 
-	static void insert(int no, String name, int age) throws SQLException {
+	public static void insert(int no, String name, int age) throws SQLException {
 
 		Connection conn = open();
 		// 带问号的sql语句
@@ -44,7 +44,7 @@ public class Student_MySQL {
 		close(conn);
 	}
 
-	static void updateAge(int no, int age) throws SQLException {
+	public static void updateAge(int no, int age) throws SQLException {
 
 		Connection conn = open();
 		// 带问号的sql语句
@@ -62,7 +62,7 @@ public class Student_MySQL {
 		close(conn);
 	}
 	
-	static void delete(int no) throws SQLException {
+	public static void delete(int no) throws SQLException {
 
 		Connection conn = open();
 		// 带问号的sql语句
@@ -78,7 +78,7 @@ public class Student_MySQL {
 			System.out.println("delete ok.");
 		close(conn);
 	}
-	static void close(Connection conn) {
+	public static void close(Connection conn) {
 		if (conn == null)
 			return;
 		try {
@@ -87,7 +87,7 @@ public class Student_MySQL {
 			e.printStackTrace();
 		}
 	}
-
+	
 	public static void main(String[] args) throws SQLException {
 		// TODO Auto-generated method stub
 		Connection conn = open();

@@ -1,0 +1,41 @@
+package cn.edu.bjfu.en.im.homework_4;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import cn.edu.bjfu.en.im.homework_1.*;
+import com.mysql.jdbc.PreparedStatement;
+
+public class StudentDAO extends BaseDAO {
+
+	public boolean add(StudentVO vo) {
+
+		Connection conn = open();
+		boolean f = false;
+		try {
+
+			// 带问号的sql语句
+			String sql = "insert into testIt (no,name,age) values (?,?,?)";
+			// 3.获取PreparedStatement对象，用以执行sql语句
+			PreparedStatement ps = (PreparedStatement) conn
+					.prepareStatement(sql);
+			// sql重的?替换为具体值, setInt, setString,序号从1开始
+			ps.setInt(1, vo.getNo());
+			ps.setString(2, vo.getName());
+			ps.setInt(3, vo.getAge());
+			// 4.通过PreparedStatement对象执行sql语句
+			int count = ps.executeUpdate();// 执行sql，
+			// 返回：到数据库中有几条记录受到了影响
+			if (count > 0) {
+				f = true;
+			} else {
+				f = false;
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			this.close(conn);
+		}
+		return f;
+	}
+}
