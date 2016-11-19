@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="logout.do">
+已经注册，是否注销？<br>
+<form action="logout">
+<inpur type="submit" value="注销">
+</form>
+</body>
+</html>
