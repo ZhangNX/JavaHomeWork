@@ -36,7 +36,7 @@ public class login2 extends HttpServlet {
 			rd.forward(request, response);
 			return;
 		} else {
-			request.setAttribute("MESS", "µÇÂ½Ê§°Ü");
+			request.setAttribute("MESS", "µÇÂ½Ê§°Ü ");
 			RequestDispatcher rd = request.getRequestDispatcher("login2.jsp");
 			rd.forward(request, response);
 			return;

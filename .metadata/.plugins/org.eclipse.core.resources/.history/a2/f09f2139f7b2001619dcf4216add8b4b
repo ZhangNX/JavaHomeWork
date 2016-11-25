@@ -18,7 +18,7 @@ public class RegisterDAO extends BaseDAO {
 
 			// 带问号的sql语句
 			String sql = "insert into register (name,pwd) values (?,?)";
-			// 3.获取PreparedStatement对象，用以执行sql语句 
+			// 3.获取PreparedStatement对象，用以执行sql语句
 			PreparedStatement ps = (PreparedStatement) conn
 					.prepareStatement(sql);
 			// sql重的?替换为具体值, setInt, setString,序号从1开始

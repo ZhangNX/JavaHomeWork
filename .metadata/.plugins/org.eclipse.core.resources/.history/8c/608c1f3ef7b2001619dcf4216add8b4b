@@ -25,7 +25,7 @@ public class RegisterVO {
 		this.pwd = pwd;
 	}
 
-	@Override 
+	@Override
 	public String toString() {
 		return "RegisterVO [name=" + name + ", pwd=" + pwd + "]";
 	}
