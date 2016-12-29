@@ -14,7 +14,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="cn.edu.bjfu.en.im.BookOV"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="cn.edu.bjfu.en.im.homework_2.BookVO"/>
 <fullyQualifiedTypeName name="java.sql.Driver"/>
@@ -27,9 +26,17 @@
 <fullyQualifiedTypeName name="javax.websocket.Session"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="org.apache.catalina.filters.AddDefaultCharsetFilter"/>
 <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
 <fullyQualifiedTypeName name="cn.edu.bjfu.en.im.homework_7.RegisterDAO"/>
 <fullyQualifiedTypeName name="cn.edu.bjfu.en.im.homework_7.RegisterVO"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.DateTimeAtCompleted"/>
+<fullyQualifiedTypeName name="java.sql.Time"/>
+<fullyQualifiedTypeName name="demo.ProductDescription"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="demo.ProductCatalog"/>
+<fullyQualifiedTypeName name="demo.Sale"/>
+<fullyQualifiedTypeName name="demo.SalesLineItem"/>
 </qualifiedTypeNameHistroy>
